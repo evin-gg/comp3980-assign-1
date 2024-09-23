@@ -74,7 +74,7 @@ int main(const int argc, char *argv[])
 
     if(filter == NULL)
     {
-        fprintf(stderr, "Error: no filter specified");
+        fprintf(stderr, "Error: no filter specified\n");
         fprintf(stderr, "Usage: %s [-i input_file] [-o output_file] [-f filter]\n", argv[0]);
         exit(EXIT_FAILURE);
     }
